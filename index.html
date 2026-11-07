@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="마법소녀가 탄막을 피하고 마작패를 모아 마법을 펼치는 횡스크롤 슈팅 게임. 김겸이 AI로 게임 속 모든 요소를 만들어본 프로젝트입니다.">
+  <meta name="theme-color" content="#1a1133">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="리치 앤 플라이 · Richi &amp; Fly">
+  <meta property="og:description" content="탄막 사이를 날아 마작패를 모으고, 패 조합으로 마법을 펼치세요.">
+  <meta property="og:image" content="https://gyeom0801.github.io/richifly-site/cover.webp">
+  <title>리치 앤 플라이 · Richi &amp; Fly</title>
+  <link rel="icon" href="star.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">본문으로 건너뛰기</a>
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <a class="brand" href="#main"><img src="star.svg" width="27" height="27" alt=""> Richi &amp; Fly</a>
+      <nav aria-label="페이지 메뉴">
+        <a href="#gameplay">게임 소개</a>
+        <a class="nav-download" href="#download">다운로드 <span aria-hidden="true">↓</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="title">
+      <div class="wrap hero-layout">
+        <div class="hero-text">
+          <p class="kicker"><span aria-hidden="true">✦</span> 마법소녀 × 마작 × 탄막 슈팅</p>
+          <h1 id="title">리치 앤<br><em>플라이</em></h1>
+          <p class="hero-copy">탄막 사이를 날아 마작패를 모으세요.<br>완성한 패가 새로운 마법이 됩니다.</p>
+          <a class="button" href="#download">Windows용 다운로드 <span aria-hidden="true">↓</span></a>
+          <p class="hero-credit">제작 김겸 <span aria-hidden="true">·</span> AI 게임 제작 프로젝트</p>
+        </div>
+        <figure class="cover">
+          <img src="cover.webp" alt="보름달이 뜬 구름 궁전과 마작패를 배경으로 한 리치 앤 플라이 타이틀 아트" width="1672" height="941" fetchpriority="high">
+        </figure>
+      </div>
+    </section>
+
+    <section class="gameplay" id="gameplay" aria-labelledby="gameplay-title">
+      <div class="wrap">
+        <p class="kicker"><span aria-hidden="true">✦</span> GAMEPLAY</p>
+        <h2 id="gameplay-title">탄막 속에서 맞추는 마작패</h2>
+        <p class="section-intro">별 탄환을 쏘며 구름 궁전을 가로지르는 2D 횡스크롤 슈팅. 적이 떨어뜨린 마작패를 모으면 게임이 조합을 판정하고, 완성된 패에 따라 마법이 발동합니다.</p>
+        <div class="play-layout">
+          <figure class="screenshot">
+            <img src="flight.webp" alt="마법소녀가 구름 궁전 위에서 탄환을 피하며 마작패를 모으는 게임 화면" width="1920" height="1080" loading="lazy">
+            <figcaption><span aria-hidden="true">✦</span> 게임 플레이 화면</figcaption>
+          </figure>
+          <ol class="play-steps">
+            <li><span aria-hidden="true">01</span><div><h3>탄막을 피하고</h3><p>공격은 자동으로 나갑니다. 적의 탄환 사이로 비행하세요.</p></div></li>
+            <li><span aria-hidden="true">02</span><div><h3>마작패를 모아</h3><p>적이 떨어뜨린 패에 다가가면 화면의 패 슬롯에 들어옵니다.</p></div></li>
+            <li><span aria-hidden="true">03</span><div><h3>마법을 펼치세요</h3><p>패가 조합을 이루면 하트 레이저 같은 스킬이 발동합니다.</p></div></li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section class="maker" aria-labelledby="maker-title">
+      <div class="wrap maker-layout">
+        <figure class="screenshot maker-shot">
+          <img src="spell.webp" alt="마법소녀가 화면을 가로지르는 분홍빛 하트 레이저를 쏘는 게임 화면" width="1920" height="1080" loading="lazy">
+          <figcaption><span aria-hidden="true">✦</span> 스킬 발동 장면</figcaption>
+        </figure>
+        <div>
+          <p class="kicker"><span aria-hidden="true">✦</span> MADE WITH AI</p>
+          <h2 id="maker-title">게임 속 모든 요소를<br>AI로 만들어보다</h2>
+          <p>캐릭터와 배경, 전투 연출과 게임 로직까지. 리치 앤 플라이는 게임에 들어가는 모든 요소를 AI로 제작해본 프로젝트입니다.</p>
+          <p class="byline"><span>제작자</span> 김겸</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="download" id="download" aria-labelledby="download-title">
+      <div class="wrap download-panel">
+        <div>
+          <p class="kicker"><span aria-hidden="true">✦</span> PLAY ON PC</p>
+          <h2 id="download-title">리치 앤 플라이 플레이하기</h2>
+          <p>ZIP 파일의 압축을 모두 푼 뒤 <strong>RichiFly.exe</strong>를 실행하세요.</p>
+          <p class="controls"><kbd>WASD</kbd> 또는 방향키로 이동 <span aria-hidden="true">·</span> <kbd>Space</kbd>를 누르는 동안 정밀 이동</p>
+        </div>
+        <div class="download-action">
+          <a class="button" href="https://github.com/Gyeom0801/richifly-site/releases/latest/download/RichiFly-Windows-x64.zip">Windows용 ZIP 받기 <span aria-hidden="true">↓</span></a>
+          <p>Windows 64비트 · 키보드 플레이</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap footer-inner">
+      <a class="brand" href="#main"><img src="star.svg" width="25" height="25" alt=""> Richi &amp; Fly</a>
+      <p>리치 앤 플라이 <span aria-hidden="true">·</span> 제작 김겸</p>
+    </div>
+  </footer>
+</body>
+</html>
